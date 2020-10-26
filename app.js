@@ -66,7 +66,7 @@ app.post('/webhook', (req, res) => {
 app.get('/webhook', (req, res) => {
   
   /** PERBARUI VERIFY_TOKEN **/
-  const VERIFY_TOKEN = "<VERIFY_TOKEN_KALIAN>";
+  const VERIFY_TOKEN = "password123456";
   
   // mengurai params dari webhook verification request
   let mode = req.query['hub.mode'];
