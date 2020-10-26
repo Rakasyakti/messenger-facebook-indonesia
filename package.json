@@ -1,0 +1,23 @@
+{
+  "name": "beginner-messenger-tutorial",
+  "version": "1.0.0",
+  "description": "A simple and beginner-friendly tutorial for those wishing to automate their Facebook page's Messenger.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rakasyakti/Beginner-Messenger-Tutorial"
+  },
+  "author": "Agsanshina Raka Syakti",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
